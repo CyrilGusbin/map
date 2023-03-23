@@ -1,0 +1,4 @@
+summon vindicator -677.58 44.00 2269.41 {CustomNameVisible:0b,AbsorptionAmount:10f,CustomName:'{"text":"Moon Cultist Elite"}',HandItems:[{id:'minecraft:iron_sword',Count:1b,tag:{Enchantments:[{id:'minecraft:knockback',lvl:1s}]}},{}],HandDropChances:[0.020F,0.085F]}
+summon vindicator -689.40 44.00 2264.13 {CustomNameVisible:0b,AbsorptionAmount:10f,CustomName:'{"text":"Moon Cultist Elite"}',HandItems:[{id:'minecraft:iron_sword',Count:1b,tag:{Enchantments:[{id:'minecraft:knockback',lvl:1s}]}},{}],HandDropChances:[0.020F,0.085F]}
+summon vindicator -689.27 44.00 2275.26 {CustomNameVisible:0b,AbsorptionAmount:10f,CustomName:'{"text":"Moon Cultist Elite"}',HandItems:[{id:'minecraft:iron_sword',Count:1b,tag:{Enchantments:[{id:'minecraft:knockback',lvl:1s}]}},{}],HandDropChances:[0.020F,0.085F]}
+summon witch -689.27 44.00 2275.26 {id:"minecraft:witch",CustomName:'{"text":"Vile Sorceress"}'}

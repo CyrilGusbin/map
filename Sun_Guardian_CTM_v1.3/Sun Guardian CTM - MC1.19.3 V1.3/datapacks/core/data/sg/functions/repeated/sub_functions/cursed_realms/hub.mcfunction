@@ -1,0 +1,2 @@
+gamerule mobGriefing false
+execute positioned -100002.52 108.00 -99999.61 as @a[distance=..300] unless entity @s[x=-100002.44,y=107.00,z=-100032.11,distance=..20] unless entity @s[x=-100001.48,y=118.00,z=-99947.56,distance=..15] run scoreboard players set @s cursed 0

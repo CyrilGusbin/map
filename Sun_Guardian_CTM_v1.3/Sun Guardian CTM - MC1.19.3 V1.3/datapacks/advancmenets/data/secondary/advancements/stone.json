@@ -1,0 +1,38 @@
+{
+    "__comment": "",
+    "display": {
+        "title": {
+            "text": "Stone Age"
+        },
+        "description": {
+            "text": "Obtain some cobblestone."
+        },
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:cobblestone"
+                      ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:wood"
+}

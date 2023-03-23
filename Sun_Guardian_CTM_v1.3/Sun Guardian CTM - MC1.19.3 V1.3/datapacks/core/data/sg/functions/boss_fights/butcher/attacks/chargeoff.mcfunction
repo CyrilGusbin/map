@@ -1,0 +1,2 @@
+data merge entity @s {Attributes:[{Name:"generic.movement_speed",Base:0.30}],Invulnerable:0b,Glowing:0b,HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{CustomModelData:3,Enchantments:[{id:"minecraft:knockback",lvl:2s}]}},{}]}
+execute at @e[name="The Butcher"] run playsound minecraft:entity.zombified_piglin.ambient hostile @a ~ ~ ~ 10 0.8 1

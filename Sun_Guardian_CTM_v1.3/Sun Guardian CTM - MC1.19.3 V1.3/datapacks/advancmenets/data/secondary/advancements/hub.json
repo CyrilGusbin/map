@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "The Hub",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Find the Sun Guardian Hub by activating and using a portal.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:yellow_bed"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:starting"
+}

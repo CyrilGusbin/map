@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "War Hero",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Dispel an enemy encampment for the glory of the Solar Nation.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:city"
+}

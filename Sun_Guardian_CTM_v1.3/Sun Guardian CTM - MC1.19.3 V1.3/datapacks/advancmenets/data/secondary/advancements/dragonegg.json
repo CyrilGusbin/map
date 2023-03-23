@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Dragon's Treasure",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Return something precious to the Ancient Dragon."
+        },
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:dragon"
+}

@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Dunk City",
+            "color": "green"
+        },
+        "description": {
+            "text": "Help a sad villager in recovering his lost Dunk."
+        },
+        "icon": {
+            "item": "minecraft:donkey_spawn_egg"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:cold"
+}

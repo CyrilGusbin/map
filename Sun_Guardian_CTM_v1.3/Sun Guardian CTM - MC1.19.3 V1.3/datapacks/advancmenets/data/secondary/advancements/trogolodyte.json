@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Wololo",
+            "color": "red"
+        },
+        "description": {
+            "text": "Defeat The Trogolodyte."
+        },
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:starting"
+}

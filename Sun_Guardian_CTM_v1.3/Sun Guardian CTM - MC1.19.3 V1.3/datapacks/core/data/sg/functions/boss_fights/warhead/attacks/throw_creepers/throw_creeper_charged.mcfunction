@@ -1,0 +1,2 @@
+execute as @e[type=zombie,name="Warhead"] at @s anchored eyes run summon creeper ~ ~2 ~ {Invulnerable:1b,CustomNameVisible:0b,Health:10f,ExplosionRadius:4b,Fuse:60,ignited:1b,powered:1b,CustomName:'{"text":"Warhead\'s Super Creeper"}',Tags:["warhead","fresh"]}
+execute as @e[type=creeper,tag=warhead,tag=fresh] run function sg:boss_fights/warhead/attacks/throw_creepers/apply_motion

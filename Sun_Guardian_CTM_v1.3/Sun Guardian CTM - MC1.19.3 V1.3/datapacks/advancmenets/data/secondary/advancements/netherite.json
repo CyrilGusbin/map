@@ -1,0 +1,41 @@
+{
+    "__comment": "",
+    "display": {
+        "title": {
+            "text": "Debris Age",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Mine some Ancient Debris.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:ancient_debris"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "x": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:netherite_ingot"
+                      ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "x"
+        ]
+    ],
+    "parent": "secondary:diamond"
+}

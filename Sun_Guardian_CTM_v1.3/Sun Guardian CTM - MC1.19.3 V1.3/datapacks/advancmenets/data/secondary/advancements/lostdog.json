@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "A Paw in Need",
+            "color": "green"
+        },
+        "description": {
+            "text": "Return a lost pupper to its proper owner.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "d": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "d"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "secondary:city"
+}

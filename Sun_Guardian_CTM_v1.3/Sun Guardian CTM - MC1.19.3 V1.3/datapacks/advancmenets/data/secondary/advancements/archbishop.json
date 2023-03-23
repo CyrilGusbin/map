@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Ending the Cult",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Put a stop to the Archbishop."
+        },
+        "icon": {
+            "item": "minecraft:echo_shard"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:hot"
+}

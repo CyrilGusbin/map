@@ -1,0 +1,1 @@
+{"type":"entity","pools":[{"rolls":1,"entries":[{"type":"item","weight":1,"name":"minecraft:firework_star","functions":[{"function":"set_count","count":{"min":1,"max":3}},{"function":"set_nbt","tag":"{Enchantments:[{id:\"minecraft:power\",lvl:5s}],Explosion:{Type:3}}"},{"function":"set_name","name":[{"text":"Ectoplasm","color":"red"}]}]}]}]}

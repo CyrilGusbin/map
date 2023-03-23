@@ -1,0 +1,2 @@
+data merge entity @e[type=armor_stand,tag=startMapCutscene1,limit=1] {CustomName:'{"text":"","color":"gold"}'}
+data merge entity @e[type=armor_stand,tag=startMapCutscene2,limit=1] {CustomName:'{"text":"","color":"gold"}'}

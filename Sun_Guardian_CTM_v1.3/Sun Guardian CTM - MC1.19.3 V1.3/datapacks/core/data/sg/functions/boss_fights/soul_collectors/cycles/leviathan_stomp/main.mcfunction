@@ -1,0 +1,1 @@
+execute if score @s timer matches 200..260 run function sg:boss_fights/soul_collectors/cycles/leviathan_stomp/stomp_attack

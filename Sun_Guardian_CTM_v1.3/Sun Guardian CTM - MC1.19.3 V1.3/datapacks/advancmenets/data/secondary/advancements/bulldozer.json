@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Who's the real one?",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "Settle a dispute with The Bulldozer."
+        },
+        "icon": {
+            "item": "minecraft:iron_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:cold"
+}

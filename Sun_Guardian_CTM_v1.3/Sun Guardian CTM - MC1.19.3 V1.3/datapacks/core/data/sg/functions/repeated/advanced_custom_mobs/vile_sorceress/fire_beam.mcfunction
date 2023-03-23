@@ -1,0 +1,2 @@
+execute at @s run summon armor_stand ~ ~1 ~ {Silent:1b,Marker:1b,Invisible:1b,NoGravity:1b,Tags:["witchBeam"]}
+execute as @e[type=armor_stand,tag=witchBeam,limit=1,sort=nearest] run function sg:repeated/advanced_custom_mobs/vile_sorceress/beam_target

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:sheep",
+            "nbt": "{Tags:[\"sheepTrigger\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "sg:general/sheep_trigger"
+    }
+  }

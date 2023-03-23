@@ -1,0 +1,2 @@
+execute at @s anchored eyes run summon fireball ^ ^ ^1 {ExplosionPower:2b,Tags:["fresh","hellfire"]}
+execute as @e[type=fireball,tag=fresh] run function sg:repeated/advanced_custom_mobs/hellfire_ghast/apply_motion

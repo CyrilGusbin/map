@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Arrow Hellstorm",
+            "color": "red"
+        },
+        "description": {
+            "text": "Defeat Hell Bones."
+        },
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:butcher"
+}

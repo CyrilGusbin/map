@@ -1,0 +1,14 @@
+{
+    "replace": true,
+    "values": [
+      "minecraft:zombie",
+      "minecraft:skeleton",
+      "minecraft:wither_skeleton",
+      "minecraft:husk",
+      "minecraft:evoker",
+      "minecraft:vindicator",
+      "minecraft:ravager",
+      "minecraft:pillager",
+      "minecraft:zombie_villager"
+    ]
+  }

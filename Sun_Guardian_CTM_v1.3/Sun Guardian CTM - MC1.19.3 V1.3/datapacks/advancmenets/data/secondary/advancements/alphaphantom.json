@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Slaying the Winged Beast",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Vanquish the Alpha Phantom atop a thunderous mountain."
+        },
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:hot"
+}

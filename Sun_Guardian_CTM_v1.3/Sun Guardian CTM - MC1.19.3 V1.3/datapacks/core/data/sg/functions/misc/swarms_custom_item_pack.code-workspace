@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../../../Server/world/datapacks/swarms_custom_item_pack"
+		},
+		{
+			"path": "../../../../../../../../../Server/world/datapacks/map_core"
+		},
+		{
+			"path": "../../../../../../../../../Server/world/datapacks/player_item_storage"
+		},
+		{
+			"path": "../repeated"
+		}
+	],
+	"settings": {}
+}

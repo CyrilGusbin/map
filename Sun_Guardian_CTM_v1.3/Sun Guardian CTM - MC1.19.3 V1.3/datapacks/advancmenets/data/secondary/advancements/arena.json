@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Surviving the Horde",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Complete the Mob Arena"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:dragonegg"
+}

@@ -1,0 +1,3 @@
+execute if score @s timer matches 50 run playsound minecraft:entity.elder_guardian.death master @a ~ ~ ~ 3 0.75
+execute if score @s timer matches 50 at @s anchored eyes run summon armor_stand ^ ^ ^0.5 {Invisible:1b,NoGravity:1b,Silent:1b,Marker:1b,Small:1b,Tags:["ghostBeam"]}
+execute if score @s timer matches 50 as @e[type=armor_stand,tag=ghostBeam,limit=1,sort=nearest] run function sg:repeated/advanced_custom_mobs/ghosts/beam_target

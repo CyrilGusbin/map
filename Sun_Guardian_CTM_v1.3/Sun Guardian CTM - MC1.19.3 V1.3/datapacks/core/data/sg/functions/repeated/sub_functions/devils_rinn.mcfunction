@@ -1,0 +1,2 @@
+execute as @a if score @s devilsRinnEffect matches 3 run effect give @s minecraft:saturation 1 0 true
+execute as @a if score @s devilsRinnEffect matches 3.. run scoreboard players set @s devilsRinnEffect 0

@@ -1,0 +1,2 @@
+tag @s add processed
+data merge entity @s {HandItems:[{id:"minecraft:stone_sword",Count:1b,tag:{display:{Name:'{"text":"Marauder\'s Sword","color":"red"}'},Enchantments:[{id:"minecraft:sharpness",lvl:1s},{id:"minecraft:knockback",lvl:1s},{id:"minecraft:looting",lvl:3s},{id:"minecraft:sweeping",lvl:1s}]}}]}

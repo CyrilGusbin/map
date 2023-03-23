@@ -1,0 +1,37 @@
+{
+    "__comment": "",
+    "display": {
+        "title": {
+            "text": "Iron Age"
+        },
+        "description": {
+            "text": "Enter the Iron age by finding this rare mineral."
+        },
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:iron_ingot"
+                      ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:stone"
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Saved the World",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Collect all 12 Sun Relics."
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "main:root"
+}

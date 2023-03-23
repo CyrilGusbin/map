@@ -1,0 +1,19 @@
+{
+    "replace": true,
+    "values": [
+      "minecraft:air",
+      "minecraft:vine",
+      "minecraft:weeping_vines",
+      "minecraft:rail",
+      "minecraft:powered_rail",
+      "minecraft:grass",
+      "minecraft:tall_grass",
+      "minecraft:ladder",
+      "minecraft:torch",
+      "minecraft:soul_torch",
+      "#wall_signs",
+      "#standing_signs",
+      "water",
+      "#buttons" 
+    ]
+  }

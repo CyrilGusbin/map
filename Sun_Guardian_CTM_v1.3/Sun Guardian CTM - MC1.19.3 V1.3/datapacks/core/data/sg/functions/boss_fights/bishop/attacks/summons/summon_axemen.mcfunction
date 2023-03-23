@@ -1,0 +1,3 @@
+summon vindicator -700.73 38.00 2272.29 {CustomNameVisible:0b,CustomName:'{"text":"Moon Cultist Slayer"}',HandItems:[{id:'minecraft:iron_axe',Count:1b},{}],HandDropChances:[0.010F,0.085F]}
+summon witch -701.99 38.00 2269.46 {id:"minecraft:witch",CustomName:'{"text":"Vile Sorceress"}'}
+summon vindicator -700.46 38.00 2266.40 {CustomNameVisible:0b,CustomName:'{"text":"Moon Cultist Slayer"}',HandItems:[{id:'minecraft:iron_axe',Count:1b},{}],HandDropChances:[0.010F,0.085F]}

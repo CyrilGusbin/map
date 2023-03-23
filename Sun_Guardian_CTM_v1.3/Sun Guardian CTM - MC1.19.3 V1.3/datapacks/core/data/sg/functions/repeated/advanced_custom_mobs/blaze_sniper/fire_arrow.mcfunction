@@ -1,0 +1,2 @@
+summon arrow ~ ~ ~ {damage:2d,Fire:8000,Glowing:1b,pickup:2b,Color:16776963,Tags:["disposable","blazeSniper"],SoundEvent:"entity.blaze.hurt"} 
+execute as @e[type=arrow,tag=blazeSniper] run function sg:repeated/advanced_custom_mobs/blaze_sniper/apply_motion

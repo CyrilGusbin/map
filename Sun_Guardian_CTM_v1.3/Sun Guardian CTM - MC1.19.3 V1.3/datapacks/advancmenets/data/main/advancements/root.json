@@ -1,0 +1,31 @@
+{
+    "__comment": "",
+    "display": {
+        "title": {
+            "text": "Getting Started",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Start your adventure!"
+        },
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}

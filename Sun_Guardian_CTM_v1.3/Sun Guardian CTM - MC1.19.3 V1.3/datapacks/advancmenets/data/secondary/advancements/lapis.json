@@ -1,0 +1,33 @@
+{
+    "__comment": "",
+    "display": {
+        "title": {
+            "text": "Blue Magic"
+        },
+        "description": {
+            "text": "Find and obtain lapis lazuli from its ore."
+        },
+        "icon": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:lapis_lazuli"
+                      ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "secondary:stone"
+}

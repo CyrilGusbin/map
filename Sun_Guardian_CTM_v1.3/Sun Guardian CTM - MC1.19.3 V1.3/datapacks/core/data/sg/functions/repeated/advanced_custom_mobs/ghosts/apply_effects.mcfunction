@@ -1,0 +1,1 @@
+effect give @p darkness 6 0

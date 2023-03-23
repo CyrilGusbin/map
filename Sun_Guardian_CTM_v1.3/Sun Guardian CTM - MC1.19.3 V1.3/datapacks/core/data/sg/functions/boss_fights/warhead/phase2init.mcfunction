@@ -1,0 +1,13 @@
+execute at @a run playsound music_disc.crash record @a ~ ~ ~ 30 1 1
+effect clear @a darkness
+playsound block.end_portal.spawn hostile @a ~ ~ ~ 5 0.6 1
+scoreboard players set @s timer -50
+
+
+summon zombie ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Health:400f,CustomName:'{"text":"Warhead","color":"dark_green"}',HandItems:[{id:"minecraft:iron_axe",Count:1b,tag:{display:{Name:'{"text":"Warhead\'s Axe","color":"red","italic":false}'},Enchantments:[{id:"minecraft:sharpness",lvl:2s},{id:"minecraft:knockback",lvl:2s}]}},{id:"minecraft:tnt",Count:1b}],HandDropChances:[0.350F,0.000F],ArmorItems:[{id:"minecraft:iron_boots",Count:1b,tag:{display:{Name:'{"text":"Warhead\'s Boots","color":"red","italic":false}'},Damage:0,Enchantments:[{id:"minecraft:blast_protection",lvl:3s},{id:"minecraft:projectile_protection",lvl:1s},{id:"minecraft:soul_speed",lvl:1s}]}},{id:"minecraft:diamond_leggings",Count:1b,tag:{display:{Name:'{"text":"Warhead\'s Leggings","color":"red","italic":false}'},RepairCost:100,Damage:0,Enchantments:[{id:"minecraft:blast_protection",lvl:2s},{id:"minecraft:projectile_protection",lvl:2s}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:-0.1,Operation:0,UUID:[I;-2138460714,1953647433,-1539596995,-1807581069],Slot:"legs"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:5.5,Operation:0,UUID:[I;1129092855,1977108181,-1689614805,349391322],Slot:"legs"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:2,Operation:0,UUID:[I;-691077008,359089402,-1496221368,1530995324],Slot:"legs"}]}},{id:"minecraft:iron_chestplate",Count:1b,tag:{Enchantments:[{id:"minecraft:blast_protection",lvl:10s},{id:"minecraft:projectile_protection",lvl:3s},{id:"minecraft:unbreaking",lvl:1s}]}},{id:"minecraft:player_head",Count:1b,tag:{display:{Name:'{"text":"Warhead Trophy","color":"blue","italic":false}'},SkullOwner:{Id:[I;-927872422,-693941506,-1467819153,1917018039],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDIyZTc0ZTk2OWZlZjRjMDc1ZmY3ZDg1YTgwMDU1ZjQ4Mzg0YjU1NzQwMzgwMWI4MDdhM2QyM2IzNjY3NmMwYyJ9fX0="}]}}}}],ArmorDropChances:[0.450F,0.200F,-327.670F,1.000F],ActiveEffects:[{Id:8,Amplifier:1b,Duration:20000000,ShowParticles:0b},{Id:12,Amplifier:1b,Duration:20000000,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:400},{Name:generic.follow_range,Base:50},{Name:generic.knockback_resistance,Base:0.5},{Name:generic.movement_speed,Base:0}]}
+
+bossbar set warhead visible true
+bossbar set warhead players @a
+
+execute store result bossbar warhead max run data get entity @e[name="Warhead",limit=1] Health
+tag @s add phase2init

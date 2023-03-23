@@ -1,0 +1,1 @@
+execute as @s[scores={snowballThrown=1..}] run function sg:repeated/magic/doomsday/throw_doomsday

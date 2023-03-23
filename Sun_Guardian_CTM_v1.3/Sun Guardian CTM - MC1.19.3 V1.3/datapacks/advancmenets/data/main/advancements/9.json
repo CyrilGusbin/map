@@ -1,0 +1,32 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Sun Relic 9",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Find and return Sun Relic 9.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:music_disc_stal"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "d": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "d"
+        ]
+    ],
+    "parent": "main:root"
+}

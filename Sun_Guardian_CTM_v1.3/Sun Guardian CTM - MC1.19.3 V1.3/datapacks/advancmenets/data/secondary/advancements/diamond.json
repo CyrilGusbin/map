@@ -1,0 +1,39 @@
+{
+    "__comment": "",
+    "display": {
+        "title": {
+            "text": "Diamond Age",
+            "color": "dark_purple",
+            "bold": false
+        },
+        "description": {
+            "text": "Obtain a diamond.",
+            "color":"green"
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                  {
+                    "items": [
+                      "minecraft:diamond"
+                    ]
+                  }
+                ]
+              }
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:iron"
+}

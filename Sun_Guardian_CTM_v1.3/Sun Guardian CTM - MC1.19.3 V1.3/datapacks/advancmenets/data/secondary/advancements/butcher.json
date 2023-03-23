@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Hunger Games",
+            "color": "red"
+        },
+        "description": {
+            "text": "Defeat The Butcher."
+        },
+        "icon": {
+            "item": "minecraft:zombified_piglin_spawn_egg"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:trogolodyte"
+}

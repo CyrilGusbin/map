@@ -1,0 +1,2 @@
+execute at @s anchored eyes run summon fireball ^ ^ ^3 {Tags:["fresh","doomsday"]}
+execute as @e[type=fireball,tag=fresh,distance=..5] run function sg:repeated/advanced_custom_mobs/doomsday_ghast/apply_motion

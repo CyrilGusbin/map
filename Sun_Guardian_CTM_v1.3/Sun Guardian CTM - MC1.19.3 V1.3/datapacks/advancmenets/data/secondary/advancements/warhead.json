@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Shell Shocked",
+            "color": "dark_green",
+            "bold":true
+        },
+        "description": {
+            "text": "Defeat Warhead."
+        },
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:cold"
+}

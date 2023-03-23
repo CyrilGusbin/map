@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Going to Collections",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Defeat the Soul Collectors."
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:alphaphantom"
+}

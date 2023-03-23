@@ -1,0 +1,1 @@
+execute unless entity @p[distance=..25] facing entity @p[distance=25..] eyes positioned ^ ^ ^0.35 if blocks 100057 167 99712 100061 171 99716 ~-2 ~-2 ~-2 all run teleport @s ~ ~ ~ facing entity @p

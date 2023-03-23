@@ -1,0 +1,3 @@
+execute at @s anchored eyes run summon arrow ^ ^ ^0.1 {damage:1d,Glowing:1b,pickup:2b,Tags:["disposable","blazeSniper"],CustomPotionEffects:[{Id:20,Amplifier:0b,Duration:120}],SoundEvent:"entity.arrow.hit"} 
+execute at @s run playsound item.crossbow.shoot hostile @a ~ ~ ~ 3 1 1
+execute as @e[type=arrow,tag=blazeSniper] at @s run function sg:boss_fights/soul_collectors/cycles/lucifer_arrows/apply_motion

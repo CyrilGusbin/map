@@ -1,0 +1,5 @@
+scoreboard players remove #discs discTotalOpp 1
+execute if score #discs discTotal matches 0..5 run tellraw @a ["","[",{"text":"Sun Guardian","color":"gold"},"]"," Sun Relic successfully returned! ",{"score":{"name":"#discs","objective":"discTotal"}}," down, ",{"score":{"name":"#discs","objective":"discTotalOpp"}}," to go."]
+execute if score #discs discTotal matches 6 run tellraw @a ["","[",{"text":"Sun Guardian","color":"gold"},"]"," 6 Sun Relics successfully returned! You're halfway there!"]
+execute if score #discs discTotal matches 7..10 run tellraw @a ["","[",{"text":"Sun Guardian","color":"gold"},"]"," Sun Relic successfully returned! Only ",{"score":{"name":"#discs","objective":"discTotalOpp"}}," Relics remaining!"]
+execute if score #discs discTotal matches 11 run tellraw @a ["","[",{"text":"Sun Guardian","color":"gold"},"]"," Sun Relic successfully returned!  This is it - only one more remains!"]

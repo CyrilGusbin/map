@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Solar City",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Gain access to the Solar Nation city.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "i": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "i"
+        ]
+    ],
+    "parent": "secondary:starting"
+}

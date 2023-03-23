@@ -1,0 +1,1 @@
+execute as @e[type=creeper,name="Shotgun Creeper"] at @s run function sg:repeated/advanced_custom_mobs/dashers/main

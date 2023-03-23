@@ -1,0 +1,2 @@
+execute at @s anchored eyes run summon wither_skull ^ ^ ^3 {Tags:["fresh","hellfire"]}
+execute as @e[type=wither_skull,tag=fresh] run function sg:repeated/advanced_custom_mobs/diseased_ghast/apply_motion

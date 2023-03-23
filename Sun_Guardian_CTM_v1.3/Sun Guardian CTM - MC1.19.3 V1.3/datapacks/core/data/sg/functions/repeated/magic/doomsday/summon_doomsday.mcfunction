@@ -1,0 +1,8 @@
+execute if entity @s[scores={doomsdayTimer=25}] run summon creeper ~ ~ ~ {Invulnerable:1b,Glowing:1b,powered:1b,ExplosionRadius:8b,Fuse:0,ignited:1b,CustomName:'{"text":"Ultimate Doomsday","color":"dark_red"}',ActiveEffects:[{Id:18,Amplifier:1b,Duration:480},{Id:20,Amplifier:3b,Duration:480}]}
+execute if entity @s[scores={doomsdayTimer=30}] run summon creeper ~1 ~2 ~-1 {Glowing:1b,powered:1b,ExplosionRadius:7b,Fuse:0,ignited:1b,CustomName:'{"text":"Ultimate Doomsday","color":"dark_red"}',ActiveEffects:[{Id:18,Amplifier:1b,Duration:480},{Id:20,Amplifier:3b,Duration:480}]}
+execute if entity @s[scores={doomsdayTimer=32}] run summon creeper ~-2 ~ ~-2 {Invulnerable:1b,Glowing:1b,powered:1b,ExplosionRadius:6b,Fuse:0,ignited:1b,CustomName:'{"text":"Ultimate Doomsday","color":"dark_red"}',ActiveEffects:[{Id:18,Amplifier:1b,Duration:480},{Id:20,Amplifier:3b,Duration:480}]}
+execute if entity @s[scores={doomsdayTimer=34}] run summon creeper ~2 ~1 ~2 {Invulnerable:1b,Glowing:1b,powered:1b,ExplosionRadius:5b,Fuse:0,ignited:1b,CustomName:'{"text":"Ultimate Doomsday","color":"dark_red"}',ActiveEffects:[{Id:18,Amplifier:1b,Duration:480},{Id:20,Amplifier:3b,Duration:480}]}
+execute at @s[scores={doomsdayTimer=25}] run particle minecraft:explosion ~ ~ ~ 8 8 8 3 50 force
+execute at @s[scores={doomsdayTimer=28}] run particle minecraft:explosion ~ ~ ~ 6 6 6 3 20 force
+execute at @s[scores={doomsdayTimer=32}] run particle minecraft:explosion ~ ~ ~ 6 6 6 3 15 force
+execute if entity @s[scores={doomsdayTimer=25}] run playsound minecraft:entity.wither.hurt ambient @a ~ ~ ~ 5 0.6

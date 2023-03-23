@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,name=secondCounter,limit=1] run scoreboard players add @s secondCounter 1
+execute as @e[type=armor_stand,name=secondCounter,limit=1] if score @s secondCounter matches 20.. run scoreboard players set @s secondCounter 0

@@ -1,0 +1,5 @@
+/execute at @e[name=witherMarker,type=minecraft:armor_stand] run clone -98985 192 -199048 -98995 167 -199074 ~ ~ ~
+
+/execute at @e[name=witherMarker,type=minecraft:armor_stand] run fill ~ ~ ~ ~10 ~25 ~26 air
+
+teleport @e[name=witherMarker] -98911 6.66 -199068

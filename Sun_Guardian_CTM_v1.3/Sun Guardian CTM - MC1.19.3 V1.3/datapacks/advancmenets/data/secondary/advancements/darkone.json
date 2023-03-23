@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Defying All Odds",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Triumph over The Dark One"
+        },
+        "icon": {
+            "item": "minecraft:netherite_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:arena"
+}

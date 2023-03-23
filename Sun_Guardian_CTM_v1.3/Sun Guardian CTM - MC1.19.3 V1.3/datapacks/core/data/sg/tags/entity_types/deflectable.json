@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "values": [
+      "#arrows",
+      "minecraft:trident",
+      "minecraft:fireball"
+    ]
+  }

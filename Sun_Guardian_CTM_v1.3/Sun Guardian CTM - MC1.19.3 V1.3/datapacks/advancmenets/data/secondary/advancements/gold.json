@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Golden Touch"
+        },
+        "description": {
+            "text": "Obtain a gold ingot."
+        },
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                      "items": [
+                        "minecraft:gold_ingot"
+                      ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "secondary:stone"
+}
